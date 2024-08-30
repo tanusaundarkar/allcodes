@@ -7,7 +7,7 @@ int main()
 
 	fptr = fopen("Text.txt", "r");
 
-
+    // This file is changed
 	while (!feof(fptr)) {
 
 		fread(buffer, sizeof(buffer), 1, fptr);
